@@ -8,3 +8,12 @@
   <li>Explore Headless Mode</li>
   <li>Explore Server Module for parallel.</li>
 </ul>
+
+<h1>**Work Log**</h1>
+<h3>Day 1 : (07/05/2018)</h3><hr>
+<h4>Work Completed : </h4>
+<ul>
+<li>`Configured ChromeDrive to work with selenium`</li>
+</ul>
+
+

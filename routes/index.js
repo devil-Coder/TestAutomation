@@ -14,20 +14,16 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
     let driver = await new Builder().forBrowser('chrome').build();
     console.log('Built driver..');
     try {
-        await driver.get('http://www.google.com/ncr');
+        await driver.get('http://www.google.com');
         await driver.findElement(By.name('q')).sendKeys('webdriver', Key.RETURN);
-        await driver.wait(until.titleIs('webdriver - Google Search'),(title)=>{
-            console.log(title);
-        }, 1000);
+        console.log(Key);
+        await driver.wait(until.titleIs('webdriver - Google Search'), 1000);
+        console.log(driver.findElement(webdriver.By.name('')))
     } catch(e){
         console.log('Some error in the code..',e);
     } finally {
         await driver.quit();
     }
 })();
-// driver.get('http://www.google.com');
-// driver.findElement(webdriver.By.name('q')).sendKeys('hello world');
-// driver.findElement(webdriver.By.name('btnG')).click();
-// driver.quit();
 
 module.exports = router;
