@@ -8,10 +8,15 @@
   - [ ] Explore Headless Mode.
   - [ ] Explore Server Module for parallel. 
   
-## Work Log
-    ####Day 1 - 7/5/18
-    #####**Work Completed**
-        >Configured ChromeDrive to work with selenium
-    #####To do for rest of the day
-        >Outline the features.
-        >Read the basics of docker image for pipeline db to store the test execution, more information - https://www.pipelinedb.com/download.
+> ## **Work Progress**
+
+  #### **Day 1 - 7/5/18**
+  
+  > *Work Completed*
+  
+  - [x] `Configured ChromeDrive to work with selenium.`
+      
+  > *To do for rest of the day*
+  
+  - [ ] `Outline the features.`
+  - [ ] `Read the basics of docker image for pipeline db to store the test execution, more information - https://www.pipelinedb.com/download.`
