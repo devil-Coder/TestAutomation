@@ -13,11 +13,11 @@
 <div>
     <h1>__Work Log__</h1>
     <h3>Day 1 : (07/05/2018)</h3><hr>
-    <h4>```Work Completed``` </h4>
-    <ul>
-    <li>>Configured ChromeDrive to work with selenium</li>
-    </ul>
-    <h4>```To do for rest of the day``` </h4>
+    ```Work Completed``` 
+    >Configured ChromeDrive to work with selenium
+    ```
+    To do for rest of the day
+    ```
     <ul>
     >Outline the features.
     >Read the basics of docker image for pipeline db to store the test execution, more information - https://www.pipelinedb.com/download.
