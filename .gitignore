@@ -133,4 +133,7 @@ chromedriver.exe
 #For Firefox Driver
 geckodriver.exe
 
+#For .idea
+.idea
+
 # End of https://www.gitignore.io/api/node,webstorm
