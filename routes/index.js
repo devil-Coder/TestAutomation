@@ -1,21 +1,19 @@
 var express = require('express');
 var router = express.Router();
-var assert = require('assert'),
-    test = require('selenium-webdriver/testing'),
-    webdriver = require('selenium-webdriver');
 
-test.describe('Google Search', function() {
-    test.it('should work', function() {
-        var driver = new webdriver.Builder().
-        withCapabilities(webdriver.Capabilities.chrome()).
-        build();
-        driver.get('http://www.google.com');
-        var searchBox = driver.findElement(webdriver.By.name('q'));
-        searchBox.sendKeys('simple programmer');
-        searchBox.getAttribute('value').then(function(value) {
-            assert.equal(value, 'simple programmer');
-        });
-        driver.quit();
-    });
-});0000
+const {Builder, By, Key, until} = require('selenium-webdriver');
+
+(async function example() {
+    let driver = await new Builder().forBrowser('chrome').build();
+    try {
+        await driver.get('http://www.google.com/ncr');
+        await driver.findElement(By.name('q')).sendKeys('webdriver', Key.RETURN);
+        await driver.wait(until.titleIs('webdriver - Google Search'), 1000);
+    } catch(err){
+        console.log(err);
+    } finally {
+        await driver.quit();
+    }
+})();
+
 module.exports = router;

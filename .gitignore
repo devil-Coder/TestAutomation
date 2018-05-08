@@ -127,5 +127,10 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
+#For Chrome Driver
+chromedriver.exe
+
+#For Firefox Driver
+geckodriver.exe
 
 # End of https://www.gitignore.io/api/node,webstorm
