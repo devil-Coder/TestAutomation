@@ -21,6 +21,15 @@
   
   - [ ] `Outline the features.`
   - [ ] `Read the basics of docker image for pipeline db to store the test execution, more information - https://www.pipelinedb.com/download.`
+  
+  
+  #### **Day 2 - 8/5/18**
+  
+  > *Work Completed*
+  
+  - [x] `Prepared Testcases.`
+  - [x] `Cleaned Repo.`
+      
 > ## Learning Materials
   - [`If you face problem adding ChromeDriver to the System Variable - PATH`](https://www.youtube.com/watch?v=dz59GsdvUF8)
   - [`For getting started with selenium, this video is more like explaining how selenium works.`](https://www.youtube.com/watch?v=X3pTXG9a1oQ)
