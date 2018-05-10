@@ -34,12 +34,11 @@ var driver =new webdriver.Builder()
 
 (async function LoginVerification() {
     try {
-        await driver.get('https://www.codepark.in');
-        await driver.findElement(By.class('btn btn-outline-codepark')).click();
-        await driver.findElement(By.id('loginUsername')).sendKeys(process.env.USERNAME);
-        await driver.findElement(By.id('loginPassword')).sendKeys(process.env.password);
-        await driver.findElement(By.class('btn btn-primary btn-sm')).click();
-        await driver.wait(until.titleIs('CodePark | Dashboard'), 1000);
+        await driver.get('https://www.google.com/ncr');
+        await driver.findElement(By.name('q')).sendKeys('raj chandra vit');
+        await driver.findElement(By.xpath('//input[@aria-label="Google Search"]')).click();
+        await driver.findElement(By.linkText("Raj Chandra - Quora")).click();
+        await driver.wait(until.titleIs('Raj Chandra - Quora'));
     } finally {
         await driver.quit();
     }
