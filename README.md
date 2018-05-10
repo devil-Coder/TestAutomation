@@ -30,7 +30,7 @@
   - [x] `Prepared Testcases.`
   - [x] `Cleaned Repo.`
       
-  #### **Day 3 - 9/5/18**
+  #### **Day 4 - 10/5/18**
   
   > *Work Completed*
   
@@ -45,8 +45,9 @@
   - [ ] `Check if email is sent or not`
      
 > ## Learning Materials
-  - [`If you face problem adding ChromeDriver to the System Variable - PATH`](https://www.youtube.com/watch?v=dz59GsdvUF8)
-  - [`For getting started with selenium, this video is more like explaining how selenium works.`](https://www.youtube.com/watch?v=X3pTXG9a1oQ)
+  - [`If you face problem adding ChromeDriver to the System Variable - PATH (Video)`](https://www.youtube.com/watch?v=dz59GsdvUF8)
+  - [`For getting started with selenium, this video is more like explaining how selenium works (Video)`](https://www.youtube.com/watch?v=X3pTXG9a1oQ)
   - [`Nice article on how to get started with Selenium and Mocha`](https://simpleprogrammer.com/selenium-with-node-js)
   - [`My Question in StackOverflow`](https://stackoverflow.com/questions/50267753/why-am-i-getting-this-error-with-selenium-chromedriver)
+  - [`How to search by xpath in selenium (Video)`](https://www.youtube.com/watch?v=het017Pilwo)
   
